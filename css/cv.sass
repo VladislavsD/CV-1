@@ -3,6 +3,7 @@ $darkbrown: #2d1f11
 $white: #fff
 $blue: #1eacc7
 
+
 *
    margin: 0px
    padding: 0px
@@ -11,7 +12,7 @@ $blue: #1eacc7
 main
    padding: 58px 0px 58px 0px
    line-height: 28px
-   background: url("img/bg/1.png") center center/cover no-repeat
+   background: url("../img/bg/1.png") center center/cover no-repeat
 
 .container
    display: block
@@ -22,7 +23,7 @@ main
 header
    position: relative
    padding: 28px 0px 18px 0px
-   background: url("img/bg/main.jpg") center center/cover no-repeat
+   background: url("../img/bg/main.jpg") center center/cover no-repeat
    height: 210px
    .img
       display: block
@@ -73,3 +74,28 @@ header
       margin-top: 12px
    &_2
       margin-top: 32px
+
+.skill
+   padding: 40px 0px 52px 0px
+   background: url("../img/bg/main.jpg")
+   &_item
+      p
+         color: $white
+         margin-top: 12px
+      &_fullbar
+         margin-top: 12px
+         width: 100%   
+         background-color: #474747
+         border-radius: 20px
+         &_prec
+            text-align: right
+            padding: 2px 0px 2px 0px
+            color: $white
+            border-radius: 20px
+         .html, .css, .sass, .bootstrap
+            width: 40%
+            background-color: $black
+         .js, .git, .php, .mysql
+            width: 30%
+            background-color: $black
+            

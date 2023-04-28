@@ -6,7 +6,7 @@
 main {
   padding: 58px 0px 58px 0px;
   line-height: 28px;
-  background: url("img/bg/1.png") center center/cover no-repeat; }
+  background: url("../img/bg/1.png") center center/cover no-repeat; }
 
 .container {
   display: block;
@@ -16,7 +16,7 @@ main {
 header {
   position: relative;
   padding: 28px 0px 18px 0px;
-  background: url("img/bg/main.jpg") center center/cover no-repeat;
+  background: url("../img/bg/main.jpg") center center/cover no-repeat;
   height: 210px; }
   header .img {
     display: block;
@@ -32,24 +32,31 @@ header {
 
 .subheader {
   background-color: #000;
+  position: -webkit-sticky;
   position: sticky;
   top: 0px; }
   .subheader_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     padding: 9px 0px 9px 0px;
     width: 966px;
     margin: 0px auto;
     font-size: 12px;
     color: #fff; }
     .subheader_box_item {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       position: relative; }
       .subheader_box_item_icon {
         position: absolute;
         left: -26px;
         width: 18px;
-        filter: invert(100%); }
+        -webkit-filter: invert(100%);
+                filter: invert(100%); }
         .subheader_box_item_icon_1 {
           top: -2px; }
         .subheader_box_item_icon_2 {
@@ -66,5 +73,28 @@ header {
   margin-top: 12px; }
 .employment_history_2 {
   margin-top: 32px; }
+
+.skill {
+  padding: 40px 0px 52px 0px;
+  background: url("../img/bg/main.jpg"); }
+  .skill_item p {
+    color: #fff;
+    margin-top: 12px; }
+  .skill_item_fullbar {
+    margin-top: 12px;
+    width: 100%;
+    background-color: #474747;
+    border-radius: 20px; }
+    .skill_item_fullbar_prec {
+      text-align: right;
+      padding: 2px 0px 2px 0px;
+      color: #fff;
+      border-radius: 20px; }
+    .skill_item_fullbar .html, .skill_item_fullbar .css, .skill_item_fullbar .sass, .skill_item_fullbar .bootstrap {
+      width: 40%;
+      background-color: #000; }
+    .skill_item_fullbar .js, .skill_item_fullbar .git, .skill_item_fullbar .php, .skill_item_fullbar .mysql {
+      width: 30%;
+      background-color: #000; }
 
 /*# sourceMappingURL=cv.css.map */
