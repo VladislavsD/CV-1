@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,30 +10,70 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+   <link rel="stylesheet" href="css/bootstrap-grid.min.css"> <!-- Connecting Bootstrap to save time to create Grid easier than from scratch -->
+
    <link rel="stylesheet" href="cv.css">
    <title>Vladislavs's CV</title>
+
 </head>
+
 <body>
-   <header class="top">
+   <header>
       <div class="container">
-         <img src="img/vladislavs.jpg" alt="vladislavs.png" class="top_img">
-         <h1 class="top_heading">Vladislavs Demkovs</h1>
-         <hr>
-         <div class="subtop">
-            <div class="subtop_item">
-               <img src="icon/email.png" alt="E" class="subtop_item_icon subtop_item_icon_1">
-               <p>vladislavs.dem@gmail.com</p>
-            </div>
-            <div class="subtop_item">
-               <img src="icon/location.png" alt="L" class="subtop_item_icon subtop_item_icon_2">
-               <p>Riga, Latvia</p>
-            </div>
-            <div class="subtop_item">
-               <img src="icon/phone.png" alt="P" class="subtop_item_icon subtop_item_icon_3">
-               <p>23-88-3838</p>
-            </div>
-         </div>
+         <img src="img/vladislavs.jpg" alt="vladislavs.png" class="img">
+         <h1 class="heading">Vladislavs Demkovs</h1>
       </div>
    </header>
+
+   <div class="subheader">
+      <div class="subheader_box">
+         <div class="subheader_box_item">
+            <img src="icon/email.png" alt="email.png" class="subheader_box_item_icon subheader_box_item_icon_1">
+            <p>vladislavs.dem@gmail.com</p>
+         </div>
+         <div class="subheader_box_item">
+            <img src="icon/location.png" alt="location.png" class="subheader_box_item_icon subheader_box_item_icon_2">
+            <p>Riga, Latvia</p>
+         </div>
+         <div class="subheader_box_item">
+            <img src="icon/phone.png" alt="phone.png" class="subheader_box_item_icon subheader_box_item_icon_3">
+            <p>23-88-3838</p>
+         </div>
+      </div>
+   </div>
+   <main>
+      <section class="profile">
+         <div class="container">
+            <h2>Profile</h2>
+            <p>I like sports as much as learn web development, but when I get basic understanding of both, and started to realize how it will impact on my future, I prefer to use my time for learning new skills so that's why I choose Web Development.</p>
+         </div>
+      </section>
+   
+      <section class="employment_history">
+         <div class="container">
+         <h2>Employment History</h2>
+            <section class="employment_history_1">
+               <h3 class="profile_workplace">Meat factory “T S Bloor & Sons”, Coalville</h3>
+               <h4>June 2018 - September 2018</h4>
+               <p>Work for summer just to understand value of money and how hard it is to get that.</p>
+            </section>
+            <section class="employment_history_2">
+               <h3 class="profile_workplace">NBS, Senior Military Police, Riga</h3>
+               <h4>October 2020 - Present</h4>
+               <p>Job where I wanted to prove myself that I am stronger and better that I think I am.</p>
+               <p>One of the most important things I learned in this job was to stay calm even when I was in very stressful situations. I developed myself mentally and physically.</p>
+            </section>
+         </div>
+      </section>
+      <section class="education">
+         <div class="container">
+            <h2>Education</h2>
+            <h3 class="profile_workplace">Programming technician, Jēkabpils Agrobiznesa koledža, Jēkabpils</h3>
+            <h4>September 2016 - June 2020</h4>
+            <p>I like sports as much as learn web development, but when I get basic understanding of both, and started to realize how it will impact on my future, I prefer to use my time for learning new skills so that's why I choose Web Development.</p>
+         </div>
+      </section>
+   </main>
+   
 </body>
 </html>
