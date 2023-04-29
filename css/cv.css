@@ -113,10 +113,10 @@ header {
         padding: 2px 0px 2px 0px;
         border-radius: 20px;
         color: #4f8db6; }
-      .lang_item_fullbar .lv, .lang_item_fullbar .en {
+      .lang_item_fullbar .lv, .lang_item_fullbar .ru {
         width: 90%;
         background-color: #20214c; }
-      .lang_item_fullbar .ru {
+      .lang_item_fullbar .en {
         width: 65%;
         background-color: #20214c; }
 
